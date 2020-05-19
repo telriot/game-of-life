@@ -1,0 +1,23 @@
+@import "../variables.scss";
+@import "../animations.scss";
+.btn {
+  padding: 0.25rem;
+  background-color: $color-white;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+
+  &:hover {
+    color: $color-green-2;
+  }
+  @media (max-width: 42em) {
+    font-size: 0.875rem;
+  }
+  @media (max-width: 28em) {
+    font-size: 0.75rem;
+  }
+}
+.animate {
+  animation: btn-click 0.2s;
+}

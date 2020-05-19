@@ -1,0 +1,14 @@
+@import "../variables.scss";
+.container {
+  grid-column: 1/2;
+  background-color: $color-white;
+  border-radius: 2px;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 55em) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+}

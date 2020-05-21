@@ -19,9 +19,7 @@ function Controls() {
     stopGame()
     dispatch({ type: "CLEAR_BOARD" })
   }
-  const handlePatterns = () => {
-    console.log("patterns")
-  }
+
   return (
     <div className={styles.container}>
       <Button handleClick={handleToggleStart} text="Start / Stop" />
